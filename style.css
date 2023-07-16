@@ -1,0 +1,157 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2013/08/09/05/54/layer-170971_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #ffffff, #cca2a2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    overflow: hidden;
+    
+  }
+  
+  input[type="text"],
+  select {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  #taskList {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .task .task-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .task .task-priority {
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .task .task-deadline {
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .task .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .task .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task .delete-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .task .delete-button:hover {
+    background-color: #cc0000;
+  }
+
+.edit-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .edit-task-input,
+  .edit-priority-select,
+  .edit-deadline-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-button,
+  .cancel-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .update-button:hover,
+  .cancel-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
